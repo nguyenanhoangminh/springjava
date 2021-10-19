@@ -1,0 +1,29 @@
+# Created at 2021-10-16T17:18:18.360
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+
+# Created at 2021-10-16T17:18:19.355
+Unexpected IOException with stream: 2021-10-16 17:18:19.353  INFO 29072 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:casestudy'
+
+
+# Created at 2021-10-16T17:18:20.610
+Unexpected IOException with stream: 2021-10-16 17:18:20.609  INFO 29072 --- [           main] c.i.casestudy.CasestudyApplicationTests  : Started CasestudyApplicationTests in 11.925 seconds (JVM running for 13.966)
+
+
+# Created at 2021-10-16T17:18:20.672
+Unexpected IOException: 5,1,com.info5059.casestudy.CasestudyApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2021-10-16T17:18:21.193
+Unexpected IOException: 6,1,com.info5059.casestudy.CasestudyApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2021-10-16T17:18:21.200
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.info5059.casestudy.CasestudyApplicationTests,null,null,null
+
+
